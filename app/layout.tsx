@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Zain,  Montserrat } from "next/font/google";
+import {  Montserrat } from "next/font/google";
 import "./globals.css";
 
 
@@ -9,14 +9,6 @@ const montserrat = Montserrat({
   subsets: ['latin'],  // Choose subsets
   display: 'swap',
 });
-
-const zainfont = Zain({
-  weight: ['400'],        // Choose available weights
-  style: ['normal'],             // Can also be ['normal', 'italic'] if needed
-  subsets: ['latin'],  // Choose subsets
-  display: 'swap',
-});
-
 
 export const metadata: Metadata = {
   title: "PortFolio",

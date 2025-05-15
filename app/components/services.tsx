@@ -1,5 +1,4 @@
 'use client';
-import { Building2, Cog, Network } from 'lucide-react';
 import Image from 'next/image';
 import React, { useState } from 'react'
 
@@ -65,7 +64,7 @@ const Services = () => {
                         
                         <h1 className="text-5xl font-black tracking-wider text-[#023751]">Architecture</h1>
                         <p className='text-[#757c84] text-lg font-semibold'>Our highly-regarded architectural services span the full range of project development. We utilize our tried-and-true process to develop beautiful and functional spaces both on time and on budget.</p>
-                        <p className='text-md tracking-widest font-black mt-10 text-[#ab901e]'>LET'S CONNECT</p>
+                        <p className='text-md tracking-widest font-black mt-10 text-[#ab901e]'>LET&#39;S CONNECT</p>
                     </div>
                 }
 
@@ -74,7 +73,7 @@ const Services = () => {
                         
                         <h1 className="text-5xl font-black tracking-wider text-[#59788a]">Interior design</h1>
                         <p className='text-[#757c84] text-lg font-semibold'>Coleman Partners Architects, LLC has highly qualified, licensed interior designers on staff capable of everything from conceptual design and construction documentation to interior renderings and installation supervision.</p>
-                        <p className='text-md tracking-widest font-black mt-10 text-[#ab901e]'>LET'S CONNECT</p>
+                        <p className='text-md tracking-widest font-black mt-10 text-[#ab901e]'>LET&#39;S CONNECT</p>
                     </div>
                 }
 
@@ -83,7 +82,7 @@ const Services = () => {
                         
                         <h1 className="text-5xl font-black tracking-wider text-[#874000]">Planning</h1>
                         <p className='text-[#757c84] text-lg font-semibold'>Projects of all sizes are complex, and our process allows us to take a thoughtful and efficient approach to architectural development. Our team understands master planning and budgeting, as well as feasibility and other types of analyses that are relevant to a successful venture.</p>
-                        <p className='text-md tracking-widest font-black mt-10 text-[#ab901e]'>LET'S CONNECT</p>
+                        <p className='text-md tracking-widest font-black mt-10 text-[#ab901e]'>LET&#39;S CONNECT</p>
                     </div>
                 }
                 {(state === 'programming') &&
@@ -91,7 +90,7 @@ const Services = () => {
                         
                         <h1 className="text-5xl font-black tracking-wider text-[#6f6259]">Programming</h1>
                         <p className='text-[#757c84] text-lg font-semibold'>Understanding what is possible is often the first step toward developing a project. Coleman Partners researches the personnel demographics to determine the needs of the space — and its surrounding areas. We also account for the possibility of growth and take the full context into consideration.</p>
-                        <p className='text-md tracking-widest font-black mt-10 text-[#ab901e]'>LET'S CONNECT</p>
+                        <p className='text-md tracking-widest font-black mt-10 text-[#ab901e]'>LET&#39;S CONNECT</p>
                     </div>
                 }
             </section>

@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import { LocateIcon } from 'lucide-react'
 
 const ProjectGrid = () => {
     return (
