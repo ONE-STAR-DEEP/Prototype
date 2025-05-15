@@ -4,8 +4,7 @@ import Navbar from '../components/Navbar'
 const page = () => {
   return (
     <div className='screen-limit'>
-
-      <div className="screen-limit projects-section">
+      <div className="projects-section screen-limit">
         <div className='inset-0 bg-black/50 h-full w-full absolute flex flex-col items-center justify-between'>
           <Navbar />
           <h1 className='text-7xl font-semibold'>Our Projects</h1>
