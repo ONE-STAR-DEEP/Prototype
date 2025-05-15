@@ -30,7 +30,7 @@ body {
 }
 
 .projects-section {
-  @apply bg-[url('/images/8.jpg')] px-20  bg-cover bg-center h-screen w-full flex flex-col items-center justify-between;
+  @apply bg-[url('/images/8.jpg')] px-20  bg-cover bg-center h-full w-full flex flex-col items-center justify-between;
 }
 .screen-limit {
   @apply min-h-[700px] min-w-[1200px];

@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 
 const page = () => {
   return (
-    <div className='screen-limit'>
+    <div className='h-screen screen-limit'>
       <div className="projects-section screen-limit">
         <div className='screen-limit inset-0 bg-black/50 h-full w-full absolute flex flex-col items-center justify-between'>
           <Navbar />
