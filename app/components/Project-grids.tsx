@@ -6,11 +6,10 @@ const ProjectGrid = () => {
     return (
         <div className='w-full grid grid-cols-2 mt-20'>
             <Image
-                src="/images/15.jpg"
+                src="/images/7.jpg"
                 alt='image'
                 height={550}
                 width={550}
-                className='w-96'
 
             />
             <div className='w-96 flex flex-col items-start justify-center gap-4 p-4 text-gray-800'>
